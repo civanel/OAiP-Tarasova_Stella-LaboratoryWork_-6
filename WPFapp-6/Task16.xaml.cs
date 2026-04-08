@@ -21,7 +21,7 @@ namespace WPFapp_6
                 return;
             }
 
-            if (!double.TryParse(txtA.Text, out double a) || a == 0 || a < 1000000)
+            if (!double.TryParse(txtA.Text, out double a) || a == 0 )
             {
                 tbResult.Text = "a - ненулевое число!";
                 return;
